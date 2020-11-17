@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Thermal Imaging</title>
+    <style>
+	img {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	width: 35%
+	}
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Presensi Thermal Image</h1>
+    <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+    <h2>Captured Image temp high </h2>
+    <img src="savedImage.jpg" alt="savedimg" />
+    <form action=""></form>
+  </body>
+</html>
